@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family:Verdana, Geneva, Tahoma, sans-serif; 
+   box-sizing: border-box;
+}
+body{
+    background: #083D77;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: #083D77;
+    font-weight: 600;
+}
+.button{
+    background: #EBEBD3;
+    color: #222222;
+    font-weight: 500;
+    width: 80%;
+    border: 1px solid #222222;
+    padding: 10px;
+    margin:10px 0;
+    border-radius: 4px;
+    align-content: center;
+    
+}
+.app{
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    background: #EBEBD3;
+    width: 90%;
+    max-width: 700px;
+}
+.app h1{
+    border-bottom:1px solid #555555;
+    padding-bottom: 50px;
+    font-size: 25px;
+    color: #083D77;
+
+}
+
+
+.button:hover:not([disabled]){
+    background:#222222;
+    color: #EBEBD3;
+}
+#plusone{
+    background: #083D77;
+    color: #EBEBD3;
+    font-weight: 500;   
+    width: 200px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+
+ }
+ #plustwo{
+    background: #083D77;
+    color: #EBEBD3;
+    font-weight: 500;   
+    width: 200px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    
+
+ }
+ .rightans{
+    background: #38DAF9;
+ }
+ .wrongans{
+    background: #F95738;
+ }
+ footer {  
+    position: fixed;  
+    bottom: 0px;    
+    width: 100%;  
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #333333;  
+    color: white;  
+    
+}
+footer h1{
+    color:#fff;
+    font-size: 15px;
+    margin-left: 5px;
+    
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+}
